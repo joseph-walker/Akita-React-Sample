@@ -1,0 +1,31 @@
+{
+    "name": "@tred/akita",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "clean": "rm dist/bundle.js",
+        "build-dev": "webpack -d --mode development",
+        "build-prod": "webpack -p --mode production",
+        "start": "webpack-dev-server --hot --mode development"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@datorama/akita": "^4.10.9",
+        "react": "^16.11.0",
+        "react-dom": "^16.11.0",
+        "react-hot-loader": "^4.12.15"
+    },
+    "devDependencies": {
+        "@hot-loader/react-dom": "^16.10.2",
+        "@types/react": "^16.9.11",
+        "@types/react-dom": "^16.9.3",
+        "ts-loader": "^6.2.1",
+        "typescript": "^3.6.4",
+        "webpack": "^4.41.2",
+        "webpack-cli": "^3.3.10",
+        "webpack-dev-server": "^3.9.0"
+    }
+}
